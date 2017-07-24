@@ -1,1 +1,3 @@
 # OptionalHomework
+ - Homework for palindrome
+
