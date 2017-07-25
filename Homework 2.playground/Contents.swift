@@ -4,13 +4,12 @@ import UIKit
 
 var str = "Hello, playground"
 func checkTwoD (array: [[Int]]){
-    array.count
     var i = 0
     var j = 0
-    for a in array{
+    for _ in array{
         i += 1
     }
-    for a in array[0]{
+    for _ in array[0]{
         j += 1
     }
     var newOne = [Int](repeatElement(1, count: j))
