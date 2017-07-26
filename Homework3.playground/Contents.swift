@@ -39,9 +39,8 @@ func removeDup(string : String) -> String{
     for char in string.characters{
         //print (char)
         //print(str[j])
-        //print (char)
-        if checkIn(strArray: str, char: char, k: j){
 
+        if checkIn(strArray: str, char: char, k: j){
             strOutput.append(char)
            // print (strOutput)
         }
@@ -55,4 +54,4 @@ func removeDup(string : String) -> String{
     
 }
 
-print(removeDup(string: "abcabc"))
+print(removeDup(string: "abcabcd"))
