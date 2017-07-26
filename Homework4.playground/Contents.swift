@@ -20,6 +20,7 @@ func compareAmd(arrayA : [Int], arrayB : [Int]){
         newArray[i] = arrayB[i-A]
     }
     print(newArray)
+    
     var z : Int = 0
     for i in 0..<C-1 {
         for j in 0..<(C-1-i) {
